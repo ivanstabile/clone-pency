@@ -179,32 +179,23 @@ h2 {
           flex-direction: row;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   margin-bottom: 100px;
 }
 
-.main-content .main-content-1 .main-pic {
-  -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
-}
-
 .main-content .main-content-1 .main-pic .main-pic-img {
-  width: 500px;
+  height: auto;
 }
 
 .main-content .main-content-1 .main-texto {
-  -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
   width: 500px;
-  margin-left: 100px;
 }
 
 .main-content .main-content-1 .main-texto h2 {
-  width: 500px;
   font-weight: 700;
   font-size: 3rem;
   margin-bottom: 1.5rem;
@@ -249,28 +240,21 @@ h2 {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   margin-bottom: 100px;
 }
 
-.main-content .main-content-2 .main-pic {
-  -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
-}
-
 .main-content .main-content-2 .main-pic .main-pic-img {
-  width: 500px;
+  height: auto;
 }
 
 .main-content .main-content-2 .main-texto {
-  -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
   width: 500px;
   margin-right: 100px;
 }
@@ -321,27 +305,20 @@ h2 {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
 }
 
-.main-content .main-content-3 .main-pic {
-  -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
-}
-
 .main-content .main-content-3 .main-pic .main-pic-img {
-  width: 500px;
+  height: auto;
 }
 
 .main-content .main-content-3 .main-texto {
-  -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
   width: 500px;
   margin-left: 100px;
 }
