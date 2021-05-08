@@ -77,7 +77,6 @@ h2 {
 
 .hero {
   background-color: #162D27;
-  height: 100vh;
 }
 
 .hero .hero-bg {
@@ -85,12 +84,9 @@ h2 {
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
-  height: 100%;
-  margin: 0 auto 0 auto;
 }
 
-.hero .hero-content {
-  height: 70vh;
+.hero .hero-bg .hero-content {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -100,38 +96,39 @@ h2 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  height: 100vh;
 }
 
-.hero .hero-content .hero-texto {
-  width: 550px;
+.hero .hero-bg .hero-content .hero-texto {
+  width: 580px;
 }
 
-.hero .hero-content .hero-texto h1 {
+.hero .hero-bg .hero-content .hero-texto h1 {
   font-family: 'Philosopher', sans-serif;
   color: #f5f5f5;
-  line-height: 1.1;
-  letter-spacing: -0.5px;
+  line-height: 1;
+  letter-spacing: -0.2px;
   font-weight: 700;
-  font-size: 4rem;
-  padding-top: 4rem;
+  font-size: 4.2rem;
   padding-left: 0px;
   padding-right: 0px;
+  padding-bottom: 30px;
   text-align: left;
-  margin-bottom: 40px;
+  margin-top: -80px;
 }
 
-.hero .hero-content .hero-texto h3 {
+.hero .hero-bg .hero-content .hero-texto h3 {
   font-size: 1.25rem;
   text-align: left;
   color: #d4ecc4;
   padding-bottom: 40px;
 }
 
-.hero .hero-content .hero-texto .hero-buttons {
+.hero .hero-bg .hero-content .hero-texto .hero-buttons {
   font-size: 1rem;
 }
 
-.hero .hero-content .hero-texto .hero-buttons .btn-crea {
+.hero .hero-bg .hero-content .hero-texto .hero-buttons .btn-crea {
   background: #22594B;
   color: #ffffff;
   text-decoration: none;
@@ -140,7 +137,7 @@ h2 {
   margin-right: 10px;
 }
 
-.hero .hero-content .hero-texto .hero-buttons .btn-funciona {
+.hero .hero-bg .hero-content .hero-texto .hero-buttons .btn-funciona {
   background-color: #ebf5f0;
   color: #162D27;
   text-decoration: none;
@@ -150,17 +147,18 @@ h2 {
   transition: all ease .2s;
 }
 
-.hero .hero-content .hero-texto .hero-buttons .btn-funciona:hover {
+.hero .hero-bg .hero-content .hero-texto .hero-buttons .btn-funciona:hover {
   background: #d4ecc4;
 }
 
-.hero .hero-content .hero-img {
-  margin-top: 500px;
+.hero .hero-bg .hero-content .hero-img {
+  margin-right: 20px;
 }
 
-.hero .hero-content .hero-img .hero-img-set {
-  width: 500px;
+.hero .hero-bg .hero-content .hero-img .hero-img-set {
+  width: 520px;
   height: auto;
+  margin-top: 250px;
 }
 
 .main-content {
@@ -177,18 +175,21 @@ h2 {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
   -ms-flex-pack: distribute;
       justify-content: space-around;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   margin-bottom: 100px;
+  margin-right: 100px;
+}
+
+.main-content .main-content-1 .main-pic {
+  margin-right: 180px;
 }
 
 .main-content .main-content-1 .main-pic .main-pic-img {
-  height: auto;
+  width: 500px;
 }
 
 .main-content .main-content-1 .main-texto {
@@ -240,8 +241,6 @@ h2 {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -ms-flex-wrap: nowrap;
-      flex-wrap: nowrap;
   -ms-flex-pack: distribute;
       justify-content: space-around;
   -webkit-box-align: center;
@@ -251,12 +250,12 @@ h2 {
 }
 
 .main-content .main-content-2 .main-pic .main-pic-img {
-  height: auto;
+  width: 500px;
 }
 
 .main-content .main-content-2 .main-texto {
   width: 500px;
-  margin-right: 100px;
+  margin-left: -100px;
 }
 
 .main-content .main-content-2 .main-texto h2 {
@@ -305,22 +304,26 @@ h2 {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -ms-flex-wrap: nowrap;
-      flex-wrap: nowrap;
   -ms-flex-pack: distribute;
       justify-content: space-around;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin-bottom: 100px;
+  margin-right: 100px;
+}
+
+.main-content .main-content-3 .main-pic {
+  margin-right: 180px;
 }
 
 .main-content .main-content-3 .main-pic .main-pic-img {
-  height: auto;
+  width: 500px;
 }
 
 .main-content .main-content-3 .main-texto {
   width: 500px;
-  margin-left: 100px;
+  margin-left: -50px;
 }
 
 .main-content .main-content-3 .main-texto h2 {
