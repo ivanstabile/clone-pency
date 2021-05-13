@@ -657,4 +657,102 @@ h2 {
   color: #338671;
   margin-left: 10px;
 }
+
+@media screen and (max-width: 990px) {
+  .hero .hero-bg .hero-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .hero .hero-bg .hero-content .hero-texto {
+    max-width: 500px;
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: -220px;
+  }
+  .hero .hero-bg .hero-content .hero-texto h1 {
+    font-weight: 700;
+    font-size: 3.5rem;
+    padding-bottom: 10px;
+    text-align: center;
+  }
+  .hero .hero-bg .hero-content .hero-texto h3 {
+    font-size: 1rem;
+    text-align: center;
+    padding-bottom: 15px;
+  }
+  .hero .hero-bg .hero-content .hero-texto .hero-img .hero-img-set {
+    width: 150px;
+    height: 100px;
+  }
+  .hero .hero-bg .hero-content .hero-texto .hero-buttons {
+    font-size: .8rem;
+  }
+  .hero .hero-bg .hero-content .hero-texto .hero-buttons .btn-crea {
+    border-radius: 5px;
+    padding: 10px 15px 10px 15px;
+    margin-right: 10px;
+  }
+  .hero .hero-bg .hero-content .hero-texto .hero-buttons .btn-funciona {
+    border-radius: 5px;
+    padding: 10px 15px 10px 15px;
+  }
+  .main-content {
+    margin: 500px auto 50px auto;
+  }
+  .main-content .main-content-1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: 0 auto;
+  }
+  .main-content .main-content-1 .main-pic .main-pic-img {
+    width: 300px;
+  }
+  .main-content .main-content-1 .main-texto {
+    width: 500px;
+  }
+  .main-content .main-content-1 .main-texto h2 {
+    font-weight: 700;
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+    font-style: normal;
+    line-height: 1.1;
+    letter-spacing: -0.5px;
+  }
+  .main-content .main-content-1 .main-texto p {
+    font-size: 1.25rem;
+    font-weight: 300;
+    width: 600px;
+    padding-right: 10px;
+  }
+  .main-content .main-content-1 .main-texto h5 {
+    margin-top: 30px;
+  }
+  .main-content .main-content-1 .main-texto h5 a {
+    text-decoration: none;
+    color: #22594b;
+    font-weight: 700;
+    -webkit-transition: all ease .2s;
+    transition: all ease .2s;
+  }
+  .main-content .main-content-1 .main-texto h5 a .arrow {
+    width: 30px;
+    height: 22px;
+  }
+  .main-content .main-content-1 .main-texto h5 a:hover {
+    color: #162D27;
+  }
+}
 /*# sourceMappingURL=main.css.map */

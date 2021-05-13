@@ -511,3 +511,99 @@ h2{
         }
     }
 }
+
+@media screen and(max-width: 990px){
+        .hero{
+            .hero-bg{
+                .hero-content{
+                    display: flex;
+                    flex-direction: column;
+                    .hero-texto{
+                        max-width: 500px;
+                        text-align: center;
+                        margin-top: 150px;
+                        margin-bottom: -220px;
+                        h1{
+                            font-weight: 700;
+                            font-size: 3.5rem;
+                            padding-bottom: 10px;
+                            text-align: center;
+                        }
+                        h3{
+                            font-size: 1rem;
+                            text-align: center;
+                            padding-bottom: 15px;
+                        }
+                        .hero-img{
+                            .hero-img-set{
+                                width: 150px;
+                                height: 100px;
+                            }
+        
+                    }
+                    .hero-buttons{
+                        font-size: .8rem; 
+                        .btn-crea{
+                            border-radius: 5px;
+                            padding: 10px 15px 10px 15px; 
+                            margin-right: 10px;
+                        }
+                        .btn-funciona{
+                            border-radius: 5px;
+                            padding: 10px 15px 10px 15px;  
+                        }
+                        
+                    }
+                }
+                }
+        }
+            }
+
+        .main-content{
+             margin: 500px auto 50px auto;
+             .main-content-1{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                margin: 0 auto;
+                .main-pic{
+                    .main-pic-img{
+                        width: 300px;
+                    }
+                }
+                .main-texto{
+                    width: 500px;
+                    h2{
+                        font-weight: 700;
+                        font-size: 3rem;
+                        margin-bottom: 1.5rem;
+                        font-style: normal;
+                        line-height: 1.1;
+                        letter-spacing: -0.5px;
+                    }
+                    p{
+                        font-size: 1.25rem;
+                        font-weight: 300;
+                        width: 600px;
+                        padding-right: 10px;
+                    }
+                    h5{
+                        margin-top: 30px;
+                        a{
+                            text-decoration: none;
+                            color: rgb(34, 89, 75);
+                            font-weight: 700;
+                            transition: all ease .2s;
+                            .arrow{
+                                width: 30px;
+                                height: 22px;
+                            }
+                        }
+                        a:hover{
+                            color: $color-primario;
+                        }
+                    }
+                }
+            }
+        }    
+}
