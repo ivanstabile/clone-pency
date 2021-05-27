@@ -255,7 +255,6 @@ h2 {
 
 .main-content .main-content-2 .main-texto {
   width: 500px;
-  margin-left: -100px;
 }
 
 .main-content .main-content-2 .main-texto h2 {
@@ -623,8 +622,13 @@ h2 {
 }
 
 .footer .container-footer .footer-icon {
-  width: 25px;
-  height: 25px;
+  width: 22px;
+  height: 22px;
+}
+
+.footer .footer-legal .legales p, .footer .footer-legal .legales a {
+  font-weight: 300;
+  font-size: 13px;
 }
 
 .footer-legal hr {
@@ -685,9 +689,8 @@ h2 {
     text-align: center;
     padding-bottom: 15px;
   }
-  .hero .hero-bg .hero-content .hero-texto .hero-img .hero-img-set {
-    width: 150px;
-    height: 100px;
+  .hero .hero-bg .hero-content .hero-texto .hero-img {
+    margin: 0;
   }
   .hero .hero-bg .hero-content .hero-texto .hero-buttons {
     font-size: .8rem;
@@ -702,9 +705,10 @@ h2 {
     padding: 10px 15px 10px 15px;
   }
   .main-content {
-    margin: 500px auto 50px auto;
+    margin: 600px auto 50px auto;
+    text-align: center;
   }
-  .main-content .main-content-1 {
+  .main-content .main-content-1, .main-content .main-content-2, .main-content .main-content-3 {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -715,15 +719,23 @@ h2 {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    margin: 0 auto;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: auto;
   }
-  .main-content .main-content-1 .main-pic .main-pic-img {
+  .main-content .main-content-1 .main-pic, .main-content .main-content-2 .main-pic, .main-content .main-content-3 .main-pic {
+    margin: auto;
+    padding: 20px;
+  }
+  .main-content .main-content-1 .main-pic .main-pic-img, .main-content .main-content-2 .main-pic .main-pic-img, .main-content .main-content-3 .main-pic .main-pic-img {
     width: 300px;
   }
-  .main-content .main-content-1 .main-texto {
-    width: 500px;
+  .main-content .main-content-1 .main-texto, .main-content .main-content-2 .main-texto, .main-content .main-content-3 .main-texto {
+    width: 400px;
+    margin-bottom: 50px;
   }
-  .main-content .main-content-1 .main-texto h2 {
+  .main-content .main-content-1 .main-texto h2, .main-content .main-content-2 .main-texto h2, .main-content .main-content-3 .main-texto h2 {
     font-weight: 700;
     font-size: 3rem;
     margin-bottom: 1.5rem;
@@ -731,27 +743,26 @@ h2 {
     line-height: 1.1;
     letter-spacing: -0.5px;
   }
-  .main-content .main-content-1 .main-texto p {
-    font-size: 1.25rem;
-    font-weight: 300;
-    width: 600px;
-    padding-right: 10px;
+  .main-content .main-content-1 .main-texto p, .main-content .main-content-2 .main-texto p, .main-content .main-content-3 .main-texto p {
+    font-size: 1.2rem;
+    margin: auto;
+    max-width: 300px;
   }
-  .main-content .main-content-1 .main-texto h5 {
-    margin-top: 30px;
+  .main-content .main-content-1 .main-texto h5, .main-content .main-content-2 .main-texto h5, .main-content .main-content-3 .main-texto h5 {
+    margin-top: 20px;
   }
-  .main-content .main-content-1 .main-texto h5 a {
+  .main-content .main-content-1 .main-texto h5 a, .main-content .main-content-2 .main-texto h5 a, .main-content .main-content-3 .main-texto h5 a {
     text-decoration: none;
     color: #22594b;
     font-weight: 700;
     -webkit-transition: all ease .2s;
     transition: all ease .2s;
   }
-  .main-content .main-content-1 .main-texto h5 a .arrow {
+  .main-content .main-content-1 .main-texto h5 a .arrow, .main-content .main-content-2 .main-texto h5 a .arrow, .main-content .main-content-3 .main-texto h5 a .arrow {
     width: 30px;
     height: 22px;
   }
-  .main-content .main-content-1 .main-texto h5 a:hover {
+  .main-content .main-content-1 .main-texto h5 a:hover, .main-content .main-content-2 .main-texto h5 a:hover, .main-content .main-content-3 .main-texto h5 a:hover {
     color: #162D27;
   }
 }
